@@ -12,7 +12,7 @@ logs = [
 
 async function saveData(data) {
   try {
-    const response = await fetch('/api/save', {
+    const response = await fetch('./api/save', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -29,7 +29,7 @@ async function saveData(data) {
 
 async function loadCards() {
   try {
-    const response = await fetch('/api/cards');
+    const response = await fetch('./api/cards');
 
     if (!response.ok) {
       throw new Error(`Request failed: ${response.status}`);
