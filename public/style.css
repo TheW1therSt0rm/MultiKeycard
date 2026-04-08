@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Poppins', system-ui, sans-serif;
+  background: #010111;
+  color: #f4f7fb;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+.hidden {
+  display: none;
+}
+
+.page {
+  width: min(1100px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 48px 0 72px;
+}
+
+.hero {
+  margin-bottom: 32px;
+}
+
+.eyebrow {
+  font-size: 0.9rem;
+  opacity: 0.75;
+  margin-bottom: 8px;
+}
+
+.title {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  line-height: 1.1;
+  margin-bottom: 12px;
+}
+
+.description {
+  max-width: 680px;
+  color: #c2c8d6;
+  line-height: 1.6;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: linear-gradient(180deg, #12122a 0%, #0b0b1e 100%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.28);
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.cardHeader h2 {
+  font-size: 1.1rem;
+  color: #ffffff;
+}
+
+.cardText {
+  color: #b1b8c9;
+  line-height: 1.55;
+  margin-bottom: 18px;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 6px 10px;
+  font-size: 0.78rem;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.badge-ready {
+  background: rgba(91, 241, 167, 0.12);
+  color: #7ff0b5;
+}
+
+.badge-draft {
+  background: rgba(255, 212, 102, 0.12);
+  color: #ffd977;
+}
+
+.badge-offline {
+  background: rgba(255, 120, 120, 0.12);
+  color: #ff9b9b;
+}
+
+.cardButton {
+  border: 0;
+  border-radius: 12px;
+  padding: 10px 14px;
+  background: #ffffff;
+  color: #010111;
+  cursor: pointer;
+}
+
+.cardButton:hover {
+  opacity: 0.92;
+}
+
+.cardActions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.logList {
+  padding-left: 18px;
+}
+
+.logList li + li {
+  margin-top: 8px;
+}

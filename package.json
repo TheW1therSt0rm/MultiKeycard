@@ -1,0 +1,13 @@
+{
+  "name": "multi-card",
+  "version": "1.0.0",
+  "description": "Node.js application for managing an external card foreach user",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

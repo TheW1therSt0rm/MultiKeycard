@@ -1,0 +1,24 @@
+{
+  "settings": [
+    {
+      "m": 0,
+      "info": "This mode uses a credit card design."
+    },
+    {
+      "m": 1,
+      "info": "This mode uses a debit card design."
+    }
+  ],
+  "users": [
+    {
+      "id": 0,
+      "m": 1,
+      "name": "Example User",
+      "email": "example@example.com",
+      "password": "password123",
+      "log": [
+        "Card opened: Settings"
+      ]
+    }
+  ]
+}

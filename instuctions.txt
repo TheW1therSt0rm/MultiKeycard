@@ -1,0 +1,34 @@
+vars:
+
+<name> : Multi-Card
+
+.
+
+pm2:
+
+Start:
+
+pm2 start server.js --name <name>
+
+.
+
+See logs:
+
+pm2 logs <name>
+
+.
+
+Make it come back after reboot:
+
+pm2 save
+pm2 startup
+
+.
+.
+
+npm:
+
+Start:
+
+npm install
+npm start
