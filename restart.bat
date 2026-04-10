@@ -2,11 +2,9 @@
 
 echo Restarting Multi-Card server
 echo 
-echo Stopping Multi-Card server...
 
-node service-uninstall.cjs
+.\stop.bat
 
-echo Stopped Multi-Card server
 echo 
 
 .\start.bat
